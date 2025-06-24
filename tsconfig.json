@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "sourceMap": true,
+    "target": "es5",
+    "module": "esnext",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "lib": ["ES5", "DOM", "ESNext"],
+    "paths": {
+      "@firebase/auth": ["./node_modules/@firebase/auth/dist/index.rn.d.ts"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
