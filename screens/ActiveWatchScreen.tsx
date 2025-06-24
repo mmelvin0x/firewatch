@@ -6,7 +6,7 @@ import { ScreenView } from "components/ScreenView";
 
 export const ActiveWatchScreen = () => (
   <ScreenView style={styles.container}>
-    <Text>ActiveWatchScreen Placeholder</Text>
+    <Text style={styles.text}>ActiveWatchScreen Placeholder</Text>
   </ScreenView>
 );
 

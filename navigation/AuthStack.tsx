@@ -3,9 +3,9 @@ import * as React from "react";
 import { ForgotPasswordScreen } from "screens/auth/ForgotPasswordScreen";
 import { LoginScreen } from "screens/auth/LoginScreen";
 import { SignupScreen } from "screens/auth/SignupScreen";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { createStackNavigator } from "@react-navigation/stack";
 
-const Stack = createNativeStackNavigator();
+const Stack = createStackNavigator();
 
 export const AuthStack = () => {
   return (

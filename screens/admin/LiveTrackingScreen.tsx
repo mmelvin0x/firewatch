@@ -6,7 +6,7 @@ import { ScreenView } from "components/ScreenView";
 
 export const LiveTrackingScreen = () => (
   <ScreenView style={styles.container}>
-    <Text>LiveTrackingScreen Placeholder</Text>
+    <Text style={styles.text}>LiveTrackingScreen Placeholder</Text>
   </ScreenView>
 );
 

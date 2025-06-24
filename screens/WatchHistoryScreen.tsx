@@ -6,7 +6,7 @@ import { ScreenView } from "components/ScreenView";
 
 export const WatchHistoryScreen = () => (
   <ScreenView style={styles.container}>
-    <Text>WatchHistoryScreen Placeholder</Text>
+    <Text style={styles.text}>WatchHistoryScreen Placeholder</Text>
   </ScreenView>
 );
 

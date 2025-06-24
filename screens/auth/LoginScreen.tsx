@@ -29,7 +29,7 @@ export const LoginScreen = ({ navigation }: { navigation: any }) => {
 
   return (
     <ScreenView>
-      <View>
+      <View style={styles.container}>
         <KeyboardAwareScrollView enableOnAndroid={true}>
           {/* LogoContainer: consist app logo and screen title */}
           <View style={styles.logoContainer}>
@@ -126,6 +126,10 @@ export const LoginScreen = ({ navigation }: { navigation: any }) => {
 };
 
 const styles = StyleSheet.create({
+  container: {
+    height: "100%",
+    justifyContent: "center",
+  },
   logoContainer: {
     alignItems: "center",
   },

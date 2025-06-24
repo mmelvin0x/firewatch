@@ -6,7 +6,7 @@ import { ScreenView } from "components/ScreenView";
 
 export const PersonnelScreen = () => (
   <ScreenView style={styles.container}>
-    <Text>PersonnelScreen Placeholder</Text>
+    <Text style={styles.text}>PersonnelScreen Placeholder</Text>
   </ScreenView>
 );
 

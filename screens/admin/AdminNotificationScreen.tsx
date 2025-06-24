@@ -6,7 +6,7 @@ import { ScreenView } from "components/ScreenView";
 
 export const AdminNotificationsScreen = () => (
   <ScreenView style={styles.container}>
-    <Text>AdminNotificationsScreen Placeholder</Text>
+    <Text style={styles.text}>AdminNotificationsScreen Placeholder</Text>
   </ScreenView>
 );
 

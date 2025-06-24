@@ -34,6 +34,7 @@ export const RootNavigator = () => {
         setUser(null);
         setRole(null);
       }
+
       setIsLoading(false);
     });
 

@@ -6,7 +6,7 @@ import { ScreenView } from "components/ScreenView";
 
 export const IncidentReportScreen = () => (
   <ScreenView style={styles.container}>
-    <Text>IncidentReportScreen Placeholder</Text>
+    <Text style={styles.text}>IncidentReportScreen Placeholder</Text>
   </ScreenView>
 );
 

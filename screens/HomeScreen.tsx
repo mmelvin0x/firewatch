@@ -11,6 +11,7 @@ export const HomeScreen = () => {
   const handleLogout = () => {
     signOut(auth).catch((error) => console.log("Error logging out: ", error));
   };
+
   return (
     <ScreenView>
       <Text style={styles.screenTitle}>Welcome to Firewatch!</Text>
